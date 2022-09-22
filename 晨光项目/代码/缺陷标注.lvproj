@@ -26,6 +26,7 @@
 		<Item Name="测试-生成模板备份.vi" Type="VI" URL="../测试-生成模板备份.vi"/>
 		<Item Name="控件 1.ctl" Type="VI" URL="../控件 1.ctl"/>
 		<Item Name="控件 2.ctl" Type="VI" URL="../控件 2.ctl"/>
+		<Item Name="选择某框-子界面.vi" Type="VI" URL="../选择某框-子界面.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
