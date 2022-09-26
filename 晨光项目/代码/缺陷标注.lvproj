@@ -12,15 +12,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="参考代码" Type="Folder">
 			<Item Name="参考-读取制表符分隔的文件到显示为表格.vi" Type="VI" URL="../参考-读取制表符分隔的文件到显示为表格.vi"/>
-			<Item Name="参考-分析生成报告文件.vi" Type="VI" URL="../参考-分析生成报告文件.vi"/>
 			<Item Name="参考-数组至表格字符串转换.vi" Type="VI" URL="../参考-数组至表格字符串转换.vi"/>
-			<Item Name="测试-particle filter.vi" Type="VI" URL="../测试-particle filter.vi"/>
 			<Item Name="测试-按行输入到word报表.vi" Type="VI" URL="../测试-按行输入到word报表.vi"/>
 			<Item Name="测试-对ROI进行分析.vi" Type="VI" URL="../测试-对ROI进行分析.vi"/>
 			<Item Name="测试-对ROI进行阈值分割.vi" Type="VI" URL="../测试-对ROI进行阈值分割.vi"/>
 			<Item Name="测试-二维数组转为一维数组.vi" Type="VI" URL="../测试-二维数组转为一维数组.vi"/>
 			<Item Name="测试-生成excel报表.vi" Type="VI" URL="../测试-生成excel报表.vi"/>
-			<Item Name="测试-生成word报表.vi" Type="VI" URL="../测试-生成word报表.vi"/>
 			<Item Name="测试-生成模板备份.vi" Type="VI" URL="../测试-生成模板备份.vi"/>
 		</Item>
 		<Item Name="未完成" Type="Folder"/>
