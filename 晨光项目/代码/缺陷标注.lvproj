@@ -22,7 +22,6 @@
 			<Item Name="测试-生成excel报表.vi" Type="VI" URL="../测试-生成excel报表.vi"/>
 			<Item Name="测试-生成word报表.vi" Type="VI" URL="../测试-生成word报表.vi"/>
 			<Item Name="测试-生成模板备份.vi" Type="VI" URL="../测试-生成模板备份.vi"/>
-			<Item Name="子界面-生成检测结果和报告-9.23测试版.vi" Type="VI" URL="../子界面-生成检测结果和报告-9.23测试版.vi"/>
 		</Item>
 		<Item Name="未完成" Type="Folder"/>
 		<Item Name="Append Report Text (str wrap).vi" Type="VI" URL="../Append Report Text (str wrap).vi"/>
