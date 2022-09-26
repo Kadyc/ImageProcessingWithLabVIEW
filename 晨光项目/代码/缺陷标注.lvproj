@@ -22,17 +22,15 @@
 			<Item Name="测试-生成excel报表.vi" Type="VI" URL="../测试-生成excel报表.vi"/>
 			<Item Name="测试-生成word报表.vi" Type="VI" URL="../测试-生成word报表.vi"/>
 			<Item Name="测试-生成模板备份.vi" Type="VI" URL="../测试-生成模板备份.vi"/>
+			<Item Name="子界面-生成检测结果和报告-9.23测试版.vi" Type="VI" URL="../子界面-生成检测结果和报告-9.23测试版.vi"/>
 		</Item>
-		<Item Name="未完成" Type="Folder">
-			<Item Name="选择某框-子界面.vi" Type="VI" URL="../选择某框-子界面.vi"/>
-		</Item>
+		<Item Name="未完成" Type="Folder"/>
 		<Item Name="Append Report Text (str wrap).vi" Type="VI" URL="../Append Report Text (str wrap).vi"/>
 		<Item Name="Create Report.vi" Type="VI" URL="../Create Report.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="控件 1.ctl" Type="VI" URL="../控件 1.ctl"/>
 		<Item Name="生成word报表.vi" Type="VI" URL="../生成word报表.vi"/>
-		<Item Name="子界面-查看某框和报告生成-9.24测试.vi" Type="VI" URL="../子界面-查看某框和报告生成-9.24测试.vi"/>
-		<Item Name="子界面-生成检测结果和报告-9.23测试版.vi" Type="VI" URL="../子界面-生成检测结果和报告-9.23测试版.vi"/>
+		<Item Name="子界面-查看某框和报告生成.vi" Type="VI" URL="../子界面-查看某框和报告生成.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
