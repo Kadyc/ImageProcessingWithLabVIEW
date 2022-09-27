@@ -13,10 +13,14 @@
 		<Item Name="参考代码" Type="Folder">
 			<Item Name="参考-读取制表符分隔的文件到显示为表格.vi" Type="VI" URL="../参考-读取制表符分隔的文件到显示为表格.vi"/>
 			<Item Name="参考-数组至表格字符串转换.vi" Type="VI" URL="../参考-数组至表格字符串转换.vi"/>
+			<Item Name="测试-Z值判定.vi" Type="VI" URL="../测试-Z值判定.vi"/>
 			<Item Name="测试-按行输入到word报表.vi" Type="VI" URL="../测试-按行输入到word报表.vi"/>
 			<Item Name="测试-对ROI进行分析.vi" Type="VI" URL="../测试-对ROI进行分析.vi"/>
 			<Item Name="测试-对ROI进行阈值分割.vi" Type="VI" URL="../测试-对ROI进行阈值分割.vi"/>
 			<Item Name="测试-二维数组转为一维数组.vi" Type="VI" URL="../测试-二维数组转为一维数组.vi"/>
+			<Item Name="测试-腐蚀图片.vi" Type="VI" URL="../测试-腐蚀图片.vi"/>
+			<Item Name="测试-灰度变换BCG Lookup.vi" Type="VI" URL="../测试-灰度变换BCG Lookup.vi"/>
+			<Item Name="测试-灰度变换Math Lookup.vi" Type="VI" URL="../测试-灰度变换Math Lookup.vi"/>
 			<Item Name="测试-生成excel报表.vi" Type="VI" URL="../测试-生成excel报表.vi"/>
 			<Item Name="测试-生成模板备份.vi" Type="VI" URL="../测试-生成模板备份.vi"/>
 		</Item>
@@ -27,6 +31,7 @@
 		<Item Name="控件 1.ctl" Type="VI" URL="../控件 1.ctl"/>
 		<Item Name="生成word报表.vi" Type="VI" URL="../生成word报表.vi"/>
 		<Item Name="子界面-查看某框和报告生成.vi" Type="VI" URL="../子界面-查看某框和报告生成.vi"/>
+		<Item Name="子界面-图像预处理.vi" Type="VI" URL="../子界面-图像预处理.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -84,11 +89,14 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
 				<Item Name="IMAQ GetFileInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ GetFileInfo"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="IMAQ Load Image Dialog" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Load Image Dialog"/>
 				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
@@ -177,6 +185,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Otsu.dll" Type="Document" URL="../Dll/Otsu.dll"/>
 			<Item Name="参考-报表颜色.vi" Type="VI" URL="../参考-报表颜色.vi"/>
 			<Item Name="控件 2.ctl" Type="VI" URL="../控件 2.ctl"/>
 		</Item>
