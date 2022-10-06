@@ -51,9 +51,22 @@ def display_blocks(divide_image):
             num += 1
     plt.show()
 
+# 拼接图片
+def image_concat(divide_image):
+    m,n,grid_h, grid_w=[divide_image.shape[0],divide_image.shape[1],#每行，每列的图像块数
+                       divide_image.shape[2],divide_image.shape[3]]#每个图像块的尺寸
+
+    restore_image = np.zeros([m*grid_h, n*grid_w, 3], np.uint8)
+    restore_image[0:grid_h,0:]
+    for i in range(m):
+        for j in range(n):
+            restore_image[i*grid_h:(i+1)*grid_h,j*grid_w:(j+1)*grid_w]=divide_image[i,j,:]
+    return restore_image
+
+
 if __name__ == "__main__":
     # --------------设置区域：
-    img_name = "test2_out_8bit.bmp"
+    img_name = "test3_out_8bit.bmp"
     imgblock_dir = './img_block'
     if not os.path.exists(imgblock_dir):
         os.makedirs(imgblock_dir)
@@ -77,3 +90,12 @@ if __name__ == "__main__":
 
     print("success")
 
+    # 还原图像
+    fig4 = plt.figure('分块图像的还原')
+    restore_image2 = image_concat(divide_image2)#图像缩放法分块还原
+    plt.imshow(restore_image2)
+    plt.axis('off')
+    plt.title('Scaling')
+    print('\t\t\t还原后的图像尺寸')
+    print('\t''图像缩放法：', restore_image2.shape)
+    plt.show()
